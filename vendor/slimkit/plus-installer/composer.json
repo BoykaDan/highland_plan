@@ -1,0 +1,36 @@
+{
+    "name": "slimkit/plus-installer",
+    "description": "📦✈️ThinkSNS+ Installer",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Seven Du",
+            "email": "shiweidu@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^5.4",
+        "illuminate/console": "^5.4",
+        "illuminate/config": "^5.4",
+        "illuminate/contracts": "^5.4",
+        "symfony/finder": "~3.2"
+    },
+    "replace": {
+        "zhiyicx/plus-installer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SlimKit\\PlusInstaller\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": "SlimKit\\PlusInstaller\\InstallerServiceProvider"
+        }
+    }
+}
