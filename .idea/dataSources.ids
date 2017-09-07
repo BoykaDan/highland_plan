@@ -9,15 +9,1796 @@
     <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
       <schema id="1" name="HIGHLAND_PLAN"/>
       <table id="2" parent="1" name="test"/>
-      <column id="3" parent="2" name="column_1">
+      <table id="3" parent="1" name="abilities"/>
+      <table id="4" parent="1" name="ability_role"/>
+      <table id="5" parent="1" name="advertising"/>
+      <table id="6" parent="1" name="advertising_space"/>
+      <table id="7" parent="1" name="areas"/>
+      <table id="8" parent="1" name="certification_categories"/>
+      <table id="9" parent="1" name="certifications"/>
+      <table id="10" parent="1" name="collections"/>
+      <table id="11" parent="1" name="comments"/>
+      <table id="12" parent="1" name="common_configs"/>
+      <table id="13" parent="1" name="conversations"/>
+      <table id="14" parent="1" name="failed_jobs"/>
+      <table id="15" parent="1" name="file_withs"/>
+      <table id="16" parent="1" name="files"/>
+      <table id="17" parent="1" name="filter_word_categories"/>
+      <table id="18" parent="1" name="filter_word_types"/>
+      <table id="19" parent="1" name="jobs"/>
+      <table id="20" parent="1" name="jwt_caches"/>
+      <table id="21" parent="1" name="likes"/>
+      <table id="22" parent="1" name="migrations"/>
+      <table id="23" parent="1" name="notifications"/>
+      <table id="24" parent="1" name="paid_node_users"/>
+      <table id="25" parent="1" name="paid_nodes"/>
+      <table id="26" parent="1" name="password_resets"/>
+      <table id="27" parent="1" name="rewards"/>
+      <table id="28" parent="1" name="role_user"/>
+      <table id="29" parent="1" name="roles"/>
+      <table id="30" parent="1" name="sensitive_words"/>
+      <table id="31" parent="1" name="sensitives"/>
+      <table id="32" parent="1" name="tag_categories"/>
+      <table id="33" parent="1" name="taggables"/>
+      <table id="34" parent="1" name="tags"/>
+      <table id="35" parent="1" name="user_extras"/>
+      <table id="36" parent="1" name="user_follow"/>
+      <table id="37" parent="1" name="user_profile_setting_links"/>
+      <table id="38" parent="1" name="user_profile_settings"/>
+      <table id="39" parent="1" name="users"/>
+      <table id="40" parent="1" name="users_recommended"/>
+      <table id="41" parent="1" name="verification_codes"/>
+      <table id="42" parent="1" name="wallet_cashes"/>
+      <table id="43" parent="1" name="wallet_charges"/>
+      <table id="44" parent="1" name="wallets"/>
+      <column id="45" parent="2" name="column_1">
         <data-type>int(11)</data-type>
       </column>
-      <column id="4" parent="2" name="column_2">
+      <column id="46" parent="2" name="column_2">
         <data-type>int(11)</data-type>
       </column>
-      <column id="5" parent="2" name="column_3">
+      <column id="47" parent="2" name="column_3">
         <data-type>int(11)</data-type>
       </column>
+      <column id="48" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="49" parent="3" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="50" parent="3" name="display_name">
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="51" parent="3" name="description">
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="52" parent="3" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="53" parent="3" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="54" parent="3" name="abilities_name_unique">
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="55" parent="3" name="abilities_name_unique">
+        <columns>name</columns>
+        <underlying-index>abilities_name_unique</underlying-index>
+      </key>
+      <key id="56" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="57" parent="4" name="ability_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="58" parent="4" name="role_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <index id="59" parent="4" name="ability_role_role_id_foreign">
+        <columns>role_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="60" parent="4" name="PRIMARY">
+        <columns>ability_id
+role_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="61" parent="4" name="ability_role_ability_id_foreign">
+        <columns>ability_id</columns>
+        <ref-key>~.abilities.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="62" parent="4" name="ability_role_role_id_foreign">
+        <columns>role_id</columns>
+        <ref-key>~.roles.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="63" parent="5" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="64" parent="5" name="space_id">
+        <comment>广告位id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="65" parent="5" name="title">
+        <comment>广告标题</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="66" parent="5" name="type">
+        <comment>类型</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="67" parent="5" name="data">
+        <comment>相关参数</comment>
+        <data-type>text</data-type>
+      </column>
+      <column id="68" parent="5" name="sort">
+        <comment>广告位排序</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="69" parent="5" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="70" parent="5" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="71" parent="5" name="advertising_space_id_index">
+        <columns>space_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="72" parent="5" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="73" parent="6" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="74" parent="6" name="channel">
+        <comment>广告位频道</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="75" parent="6" name="space">
+        <comment>广告位位置标识</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="76" parent="6" name="alias">
+        <comment>广告位别名</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="77" parent="6" name="allow_type">
+        <comment>允许的广告类型</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="78" parent="6" name="format">
+        <comment>广告数据格式</comment>
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="79" parent="6" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="80" parent="6" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="81" parent="6" name="advertising_space_channel_index">
+        <columns>channel</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="82" parent="6" name="advertising_space_space_index">
+        <columns>space</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="83" parent="6" name="advertising_space_space_unique">
+        <columns>space</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="84" parent="6" name="advertising_space_space_unique">
+        <columns>space</columns>
+        <underlying-index>advertising_space_space_unique</underlying-index>
+      </key>
+      <key id="85" parent="6" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="86" parent="7" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="87" parent="7" name="name">
+        <comment>名字</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="88" parent="7" name="pid">
+        <comment>父级ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="89" parent="7" name="extends">
+        <comment>扩展内容</comment>
+        <data-type>varchar(191)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="90" parent="7" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="91" parent="7" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="92" parent="7" name="areas_name_index">
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="93" parent="7" name="areas_pid_index">
+        <columns>pid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="94" parent="7" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="95" parent="8" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="96" parent="8" name="display_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="97" parent="8" name="description">
+        <data-type>varchar(191)</data-type>
+      </column>
+      <key id="98" parent="8" name="PRIMARY">
+        <columns>name</columns>
+        <primary>1</primary>
+      </key>
+      <column id="99" parent="9" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="100" parent="9" name="certification_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="101" parent="9" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="102" parent="9" name="data">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="103" parent="9" name="examiner">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="104" parent="9" name="status">
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="105" parent="9" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="106" parent="9" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="107" parent="9" name="certifications_certification_name_index">
+        <columns>certification_name</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="108" parent="9" name="certifications_user_id_certification_name_unique">
+        <columns>user_id
+certification_name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="109" parent="9" name="certifications_user_id_index">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="110" parent="9" name="certifications_user_id_certification_name_unique">
+        <columns>user_id
+certification_name</columns>
+        <underlying-index>certifications_user_id_certification_name_unique</underlying-index>
+      </key>
+      <key id="111" parent="9" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="112" parent="10" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="113" parent="10" name="user_id">
+        <comment>用户ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="114" parent="10" name="collectible_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="115" parent="10" name="collectible_type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="116" parent="10" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="117" parent="10" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="118" parent="10" name="collections_collectible_id_collectible_type_index">
+        <columns>collectible_id
+collectible_type</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="119" parent="10" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="120" parent="11" name="id">
+        <comment>Comment ID.</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="121" parent="11" name="user_id">
+        <comment>Send comment user.</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="122" parent="11" name="target_user">
+        <comment>Target user.</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="123" parent="11" name="reply_user">
+        <comment>Comments were answered.</comment>
+        <data-type>int(10) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="124" parent="11" name="body">
+        <comment>Comment body.</comment>
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="125" parent="11" name="commentable_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="126" parent="11" name="commentable_type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="127" parent="11" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="128" parent="11" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="129" parent="11" name="comments_commentable_id_commentable_type_index">
+        <columns>commentable_id
+commentable_type</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="130" parent="11" name="comments_reply_user_index">
+        <columns>reply_user</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="131" parent="11" name="comments_target_user_index">
+        <columns>target_user</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="132" parent="11" name="comments_user_id_index">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="133" parent="11" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="134" parent="12" name="name">
+        <comment>配置名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="135" parent="12" name="namespace">
+        <comment>配置命名空间</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="136" parent="12" name="value">
+        <comment>缓存值</comment>
+        <data-type>text</data-type>
+      </column>
+      <column id="137" parent="12" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="138" parent="12" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <key id="139" parent="12" name="PRIMARY">
+        <columns>name
+namespace</columns>
+        <primary>1</primary>
+      </key>
+      <column id="140" parent="13" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="141" parent="13" name="type">
+        <comment>会话类型 system 系统通知 feedback 用户反馈</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+        <default-expression>&apos;system&apos;</default-expression>
+      </column>
+      <column id="142" parent="13" name="user_id">
+        <comment>用户ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="143" parent="13" name="to_user_id">
+        <comment>被发送用户ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="144" parent="13" name="content">
+        <comment>会话内容</comment>
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="145" parent="13" name="options">
+        <comment>给推送平台的额外参数</comment>
+        <data-type>text</data-type>
+      </column>
+      <column id="146" parent="13" name="system_mark">
+        <comment>移动端存储标记</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="147" parent="13" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="148" parent="13" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <key id="149" parent="13" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="150" parent="14" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="151" parent="14" name="connection">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="152" parent="14" name="queue">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="153" parent="14" name="payload">
+        <mandatory>1</mandatory>
+        <data-type>longtext</data-type>
+      </column>
+      <column id="154" parent="14" name="exception">
+        <mandatory>1</mandatory>
+        <data-type>longtext</data-type>
+      </column>
+      <column id="155" parent="14" name="failed_at">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="156" parent="14" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="157" parent="15" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="158" parent="15" name="file_id">
+        <comment>文件ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="159" parent="15" name="user_id">
+        <comment>用户ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="160" parent="15" name="channel">
+        <comment>记录频道</comment>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="161" parent="15" name="raw">
+        <comment>原始频道关联信息</comment>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="162" parent="15" name="size">
+        <comment>图片尺寸，目标文件如果是图片的话则存在。便于客户端提前预设盒子</comment>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="163" parent="15" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="164" parent="15" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="165" parent="15" name="deleted_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="166" parent="15" name="file_withs_channel_raw_file_id_unique">
+        <columns>channel
+raw
+file_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="167" parent="15" name="file_withs_file_id_index">
+        <columns>file_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="168" parent="15" name="file_withs_user_id_index">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="169" parent="15" name="file_withs_channel_raw_file_id_unique">
+        <columns>channel
+raw
+file_id</columns>
+        <underlying-index>file_withs_channel_raw_file_id_unique</underlying-index>
+      </key>
+      <key id="170" parent="15" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="171" parent="15" name="file_withs_file_id_foreign">
+        <columns>file_id</columns>
+        <ref-key>~.files.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="172" parent="15" name="file_withs_user_id_foreign">
+        <columns>user_id</columns>
+        <ref-key>~.users.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="173" parent="16" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="174" parent="16" name="hash">
+        <comment>文件 hash</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="175" parent="16" name="origin_filename">
+        <comment>原始文件名</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="176" parent="16" name="filename">
+        <comment>文件名</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="177" parent="16" name="mime">
+        <comment>mime type</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="178" parent="16" name="width">
+        <comment>图片宽度</comment>
+        <mandatory>1</mandatory>
+        <data-type>double(8,2)</data-type>
+      </column>
+      <column id="179" parent="16" name="height">
+        <comment>图片高度</comment>
+        <mandatory>1</mandatory>
+        <data-type>double(8,2)</data-type>
+      </column>
+      <column id="180" parent="16" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="181" parent="16" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="182" parent="16" name="files_hash_unique">
+        <columns>hash</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="183" parent="16" name="files_mime_index">
+        <columns>mime</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="184" parent="16" name="files_hash_unique">
+        <columns>hash</columns>
+        <underlying-index>files_hash_unique</underlying-index>
+      </key>
+      <key id="185" parent="16" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="186" parent="17" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="187" parent="17" name="name">
+        <comment>过滤词分类名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="188" parent="17" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="189" parent="17" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="190" parent="17" name="deleted_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="191" parent="17" name="filter_word_categories_name_unique">
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="192" parent="17" name="filter_word_categories_name_unique">
+        <columns>name</columns>
+        <underlying-index>filter_word_categories_name_unique</underlying-index>
+      </key>
+      <key id="193" parent="17" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="194" parent="18" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="195" parent="18" name="name">
+        <comment>过滤词类别名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="196" parent="18" name="status">
+        <comment>开启状态：0-关闭，1-开启</comment>
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3) unsigned</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <index id="197" parent="18" name="filter_word_types_name_unique">
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="198" parent="18" name="filter_word_types_name_unique">
+        <columns>name</columns>
+        <underlying-index>filter_word_types_name_unique</underlying-index>
+      </key>
+      <key id="199" parent="18" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="200" parent="19" name="id">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="201" parent="19" name="queue">
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="202" parent="19" name="payload">
+        <mandatory>1</mandatory>
+        <data-type>longtext</data-type>
+      </column>
+      <column id="203" parent="19" name="attempts">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3) unsigned</data-type>
+      </column>
+      <column id="204" parent="19" name="reserved_at">
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="205" parent="19" name="available_at">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="206" parent="19" name="created_at">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <index id="207" parent="19" name="jobs_queue_reserved_at_index">
+        <columns>queue
+reserved_at</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="208" parent="19" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="209" parent="20" name="user_id">
+        <comment>User ID.</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="210" parent="20" name="key">
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="211" parent="20" name="value">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="212" parent="20" name="minutes">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="213" parent="20" name="status">
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="214" parent="20" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="215" parent="20" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="216" parent="20" name="jwt_caches_key_index">
+        <columns>key</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="217" parent="20" name="jwt_caches_user_id_index">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <column id="218" parent="21" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="219" parent="21" name="user_id">
+        <comment>点赞用户</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="220" parent="21" name="target_user">
+        <comment>目标用户</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="221" parent="21" name="likeable_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="222" parent="21" name="likeable_type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="223" parent="21" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="224" parent="21" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="225" parent="21" name="likes_likeable_id_likeable_type_index">
+        <columns>likeable_id
+likeable_type</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="226" parent="21" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="227" parent="22" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="228" parent="22" name="migration">
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="229" parent="22" name="batch">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="230" parent="22" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="231" parent="23" name="id">
+        <mandatory>1</mandatory>
+        <data-type>char(36)</data-type>
+      </column>
+      <column id="232" parent="23" name="type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="233" parent="23" name="notifiable_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="234" parent="23" name="notifiable_type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="235" parent="23" name="data">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="236" parent="23" name="read_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="237" parent="23" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="238" parent="23" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="239" parent="23" name="notifications_notifiable_id_notifiable_type_index">
+        <columns>notifiable_id
+notifiable_type</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="240" parent="23" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="241" parent="24" name="node_id">
+        <comment>付费发布ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="242" parent="24" name="user_id">
+        <comment>用户ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <index id="243" parent="24" name="paid_node_users_user_id_foreign">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="244" parent="24" name="PRIMARY">
+        <columns>node_id
+user_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="245" parent="24" name="paid_node_users_node_id_foreign">
+        <columns>node_id</columns>
+        <ref-key>~.paid_nodes.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="246" parent="24" name="paid_node_users_user_id_foreign">
+        <columns>user_id</columns>
+        <ref-key>~.users.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="247" parent="25" name="id">
+        <comment>付费记录ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="248" parent="25" name="channel">
+        <comment>付费频道</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="249" parent="25" name="raw">
+        <comment>付费原始信息</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="250" parent="25" name="subject">
+        <comment>付费主题</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="251" parent="25" name="body">
+        <comment>付费内容详情</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="252" parent="25" name="amount">
+        <comment>付费金额</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="253" parent="25" name="user_id">
+        <comment>用户ID，主要用于排除付费用户。</comment>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="254" parent="25" name="extra">
+        <comment>拓展信息</comment>
+        <data-type>text</data-type>
+      </column>
+      <column id="255" parent="25" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="256" parent="25" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="257" parent="25" name="paid_nodes_channel_raw_unique">
+        <columns>channel
+raw</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="258" parent="25" name="paid_nodes_channel_raw_unique">
+        <columns>channel
+raw</columns>
+        <underlying-index>paid_nodes_channel_raw_unique</underlying-index>
+      </key>
+      <key id="259" parent="25" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="260" parent="26" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="261" parent="26" name="token">
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="262" parent="26" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="263" parent="26" name="password_resets_user_id_index">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <column id="264" parent="27" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="265" parent="27" name="user_id">
+        <comment>操作用户</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="266" parent="27" name="target_user">
+        <comment>目标用户</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="267" parent="27" name="amount">
+        <comment>打赏金额</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="268" parent="27" name="rewardable_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="269" parent="27" name="rewardable_type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="270" parent="27" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="271" parent="27" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="272" parent="27" name="rewards_rewardable_id_rewardable_type_index">
+        <columns>rewardable_id
+rewardable_type</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="273" parent="27" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="274" parent="28" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="275" parent="28" name="role_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <index id="276" parent="28" name="role_user_role_id_foreign">
+        <columns>role_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="277" parent="28" name="PRIMARY">
+        <columns>user_id
+role_id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="278" parent="28" name="role_user_role_id_foreign">
+        <columns>role_id</columns>
+        <ref-key>~.roles.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="279" parent="28" name="role_user_user_id_foreign">
+        <columns>user_id</columns>
+        <ref-key>~.users.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="280" parent="29" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="281" parent="29" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="282" parent="29" name="display_name">
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="283" parent="29" name="description">
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="284" parent="29" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="285" parent="29" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="286" parent="29" name="roles_name_unique">
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="287" parent="29" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="288" parent="29" name="roles_name_unique">
+        <columns>name</columns>
+        <underlying-index>roles_name_unique</underlying-index>
+      </key>
+      <column id="289" parent="30" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="290" parent="30" name="name">
+        <comment>敏感词名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="291" parent="30" name="replace_name">
+        <comment>替换名称</comment>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="292" parent="30" name="filter_word_category_id">
+        <comment>栏目id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="293" parent="30" name="filter_word_type_id">
+        <comment>类别id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="294" parent="30" name="user_id">
+        <comment>创建人</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="295" parent="30" name="deleted_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="296" parent="30" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="297" parent="30" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="298" parent="30" name="sensitive_words_filter_word_category_id_index">
+        <columns>filter_word_category_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="299" parent="30" name="sensitive_words_filter_word_type_id_index">
+        <columns>filter_word_type_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="300" parent="30" name="sensitive_words_user_id_index">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="301" parent="30" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="302" parent="31" name="id">
+        <comment>primary key</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="303" parent="31" name="sensitive">
+        <comment>sensitive word</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="304" parent="31" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="305" parent="31" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="306" parent="31" name="sensitives_sensitive_index">
+        <columns>sensitive</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="307" parent="31" name="sensitives_sensitive_unique">
+        <columns>sensitive</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="308" parent="31" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="309" parent="31" name="sensitives_sensitive_unique">
+        <columns>sensitive</columns>
+        <underlying-index>sensitives_sensitive_unique</underlying-index>
+      </key>
+      <column id="310" parent="32" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="311" parent="32" name="name">
+        <comment>标签类别</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="312" parent="32" name="weight">
+        <comment>权重,排序用</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="313" parent="32" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="314" parent="32" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <key id="315" parent="32" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="316" parent="33" name="tag_id">
+        <comment>标签ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="317" parent="33" name="taggable_id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="318" parent="33" name="taggable_type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="319" parent="33" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="320" parent="33" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="321" parent="33" name="taggables_taggable_id_taggable_type_index">
+        <columns>taggable_id
+taggable_type</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <column id="322" parent="34" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="323" parent="34" name="name">
+        <comment>标签名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="324" parent="34" name="tag_category_id">
+        <comment>标签类别</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="325" parent="34" name="weight">
+        <comment>权重,排序用</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="326" parent="34" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="327" parent="34" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <key id="328" parent="34" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="329" parent="35" name="user_id">
+        <comment>用户标识</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="330" parent="35" name="likes_count">
+        <comment>点赞统计</comment>
+        <data-type>int(10) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="331" parent="35" name="comments_count">
+        <comment>评论统计</comment>
+        <data-type>int(10) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="332" parent="35" name="followers_count">
+        <comment>粉丝统计</comment>
+        <data-type>int(10) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="333" parent="35" name="followings_count">
+        <comment>关注数统计</comment>
+        <data-type>int(10) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="334" parent="35" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="335" parent="35" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="336" parent="35" name="deleted_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="337" parent="36" name="id">
+        <comment>关注ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="338" parent="36" name="user_id">
+        <comment>对象用户</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="339" parent="36" name="target">
+        <comment>目标用户</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="340" parent="36" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="341" parent="36" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="342" parent="36" name="user_follow_target_foreign">
+        <columns>target</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="343" parent="36" name="user_follow_user_id_target_unique">
+        <columns>user_id
+target</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="344" parent="36" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="345" parent="36" name="user_follow_user_id_target_unique">
+        <columns>user_id
+target</columns>
+        <underlying-index>user_follow_user_id_target_unique</underlying-index>
+      </key>
+      <foreign-key id="346" parent="36" name="user_follow_target_foreign">
+        <columns>target</columns>
+        <ref-key>~.users.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="347" parent="36" name="user_follow_user_id_foreign">
+        <columns>user_id</columns>
+        <ref-key>~.users.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="348" parent="37" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="349" parent="37" name="user_id">
+        <comment>资料关联用户id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="350" parent="37" name="user_profile_setting_id">
+        <comment>资料项id</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="351" parent="37" name="user_profile_setting_data">
+        <comment>资料项内容</comment>
+        <mandatory>1</mandatory>
+        <data-type>mediumtext</data-type>
+      </column>
+      <column id="352" parent="37" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="353" parent="37" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <key id="354" parent="37" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="355" parent="38" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="356" parent="38" name="create_user_id">
+        <comment>创建者uid</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="357" parent="38" name="profile">
+        <comment>资料标识</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="358" parent="38" name="profile_name">
+        <comment>资料名称</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="359" parent="38" name="type">
+        <comment>资料类型</comment>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;input&apos;</default-expression>
+      </column>
+      <column id="360" parent="38" name="required">
+        <comment>是否必填</comment>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="361" parent="38" name="is_delable">
+        <comment>是否可被删除0:不可被删除, 1:可被删除</comment>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="362" parent="38" name="state">
+        <comment>状态,1:在用，0:停用</comment>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="363" parent="38" name="is_show">
+        <comment>是否在前台显示,1:显示，0:不显示</comment>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="364" parent="38" name="default_options">
+        <comment>预设选项：select,checkbox,radio类型的资料必填</comment>
+        <data-type>mediumtext</data-type>
+      </column>
+      <column id="365" parent="38" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="366" parent="38" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <key id="367" parent="38" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="368" parent="39" name="id">
+        <comment>user id.</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="369" parent="39" name="name">
+        <comment>user name.</comment>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="370" parent="39" name="email">
+        <comment>user email.</comment>
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="371" parent="39" name="phone">
+        <comment>user phone member.</comment>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="372" parent="39" name="password">
+        <comment>password.</comment>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="373" parent="39" name="bio">
+        <comment>用户简介</comment>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="374" parent="39" name="sex">
+        <comment>用户性别</comment>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="375" parent="39" name="location">
+        <comment>用户位置</comment>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="376" parent="39" name="remember_token">
+        <comment>user auth token.</comment>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="377" parent="39" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="378" parent="39" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="379" parent="39" name="deleted_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="380" parent="39" name="users_email_unique">
+        <columns>email</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="381" parent="39" name="users_name_unique">
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="382" parent="39" name="users_phone_unique">
+        <columns>phone</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="383" parent="39" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="384" parent="39" name="users_email_unique">
+        <columns>email</columns>
+        <underlying-index>users_email_unique</underlying-index>
+      </key>
+      <key id="385" parent="39" name="users_name_unique">
+        <columns>name</columns>
+        <underlying-index>users_name_unique</underlying-index>
+      </key>
+      <key id="386" parent="39" name="users_phone_unique">
+        <columns>phone</columns>
+        <underlying-index>users_phone_unique</underlying-index>
+      </key>
+      <column id="387" parent="40" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="388" parent="40" name="user_id">
+        <comment>用户ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="389" parent="40" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="390" parent="40" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <key id="391" parent="40" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="392" parent="41" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="393" parent="41" name="user_id">
+        <comment>关联用户</comment>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="394" parent="41" name="channel">
+        <comment>发送频道，例如 mail, sms</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="395" parent="41" name="account">
+        <comment>发送账户</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="396" parent="41" name="code">
+        <comment>发送验证码</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="397" parent="41" name="state">
+        <comment>状态</comment>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="398" parent="41" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="399" parent="41" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="400" parent="41" name="deleted_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="401" parent="41" name="verification_codes_account_index">
+        <columns>account</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="402" parent="41" name="verification_codes_user_id_index">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="403" parent="41" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="404" parent="42" name="id">
+        <comment>提现记录ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="405" parent="42" name="user_id">
+        <comment>提现用户</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="406" parent="42" name="value">
+        <comment>需要提现的金额</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="407" parent="42" name="type">
+        <comment>提现方式</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="408" parent="42" name="account">
+        <comment>提现账户</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(191)</data-type>
+      </column>
+      <column id="409" parent="42" name="status">
+        <comment>状态：0 - 待审批，1 - 已审批，2 - 被拒绝</comment>
+        <data-type>tinyint(3) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="410" parent="42" name="remark">
+        <comment>备注</comment>
+        <data-type>text</data-type>
+      </column>
+      <column id="411" parent="42" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="412" parent="42" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="413" parent="42" name="deleted_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="414" parent="42" name="wallet_cashes_user_id_index">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="415" parent="42" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="416" parent="42" name="wallet_cashes_user_id_foreign">
+        <columns>user_id</columns>
+        <ref-key>~.users.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="417" parent="43" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="418" parent="43" name="user_id">
+        <comment>关联用户，可不存在，例如直接支付方式等。存在便于按照用户检索。</comment>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="419" parent="43" name="channel">
+        <comment>支付频道，参考 Ping++，增加 user 选项，表示站内用户凭据</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="420" parent="43" name="account">
+        <comment>交易账户，减项为目标账户，增项为来源账户，当 type 为 user 时，此处是用户ID</comment>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="421" parent="43" name="charge_id">
+        <comment>凭据id, 来自 Ping ++</comment>
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="422" parent="43" name="action">
+        <comment>类型：1 - 增加，0 - 减少</comment>
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3) unsigned</data-type>
+      </column>
+      <column id="423" parent="43" name="amount">
+        <comment>总额</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="424" parent="43" name="currency">
+        <comment>货币类型</comment>
+        <data-type>varchar(30)</data-type>
+        <default-expression>&apos;cny&apos;</default-expression>
+      </column>
+      <column id="425" parent="43" name="subject">
+        <comment>订单标题</comment>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="426" parent="43" name="body">
+        <comment>订单详情</comment>
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="427" parent="43" name="transaction_no">
+        <comment>平台记录ID</comment>
+        <data-type>varchar(150)</data-type>
+      </column>
+      <column id="428" parent="43" name="status">
+        <comment>状态：0 - 等待, 1 - 成功, 2 - 失败</comment>
+        <data-type>tinyint(3) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="429" parent="43" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="430" parent="43" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="431" parent="43" name="deleted_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="432" parent="43" name="wallet_charges_account_index">
+        <columns>account</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="433" parent="43" name="wallet_charges_action_index">
+        <columns>action</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="434" parent="43" name="wallet_charges_channel_index">
+        <columns>channel</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="435" parent="43" name="wallet_charges_charge_id_index">
+        <columns>charge_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="436" parent="43" name="wallet_charges_status_index">
+        <columns>status</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="437" parent="43" name="wallet_charges_transaction_no_index">
+        <columns>transaction_no</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="438" parent="43" name="wallet_charges_user_id_index">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="439" parent="43" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="440" parent="43" name="wallet_charges_user_id_foreign">
+        <columns>user_id</columns>
+        <ref-key>~.users.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="441" parent="44" name="id">
+        <comment>钱包ID</comment>
+        <mandatory>1</mandatory>
+        <data-type>bigint(20) unsigned</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="442" parent="44" name="user_id">
+        <comment>钱包所属用户</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="443" parent="44" name="balance">
+        <comment>钱包余额</comment>
+        <mandatory>1</mandatory>
+        <data-type>int(10) unsigned</data-type>
+      </column>
+      <column id="444" parent="44" name="created_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="445" parent="44" name="updated_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <column id="446" parent="44" name="deleted_at">
+        <data-type>timestamp</data-type>
+      </column>
+      <index id="447" parent="44" name="wallets_balance_index">
+        <columns>balance</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="448" parent="44" name="wallets_user_id_unique">
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="449" parent="44" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="450" parent="44" name="wallets_user_id_unique">
+        <columns>user_id</columns>
+        <underlying-index>wallets_user_id_unique</underlying-index>
+      </key>
+      <foreign-key id="451" parent="44" name="wallets_user_id_foreign">
+        <columns>user_id</columns>
+        <ref-key>~.users.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
     </database-model>
   </data-source>
 </component>
