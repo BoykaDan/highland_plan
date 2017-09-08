@@ -16,7 +16,7 @@
             margin: 0;
         }
         .g-bg-color {
-            background: #59b6d7;
+            background: #c00210;
             background: -moz-linear-gradient(135deg, #7262d1, #48d7e4);
             background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #7262d1), color-stop(100%, #48d7e4));
             background: -webkit-linear-gradient(0deg, #7262d1, #48d7e4);
