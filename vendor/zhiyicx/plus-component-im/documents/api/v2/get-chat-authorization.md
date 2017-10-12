@@ -1,0 +1,33 @@
+# 获取IM聊天服务器用户账号信息
+
+##接口地址
+
+`/api/v2/im/users`
+
+##请求方法
+
+`GET `
+
+
+## 返回体
+
+```
+Status 200 Ok
+```
+
+```json5
+{
+    "user_id": 9,
+    "im_password": "JAyRaCMTzLmcpAaCFrhfsQkAAAA"
+}
+```
+
+## 返回字段
+| name     | type     | must     | description |
+|----------|:--------:|:--------:|:--------:|
+| user_id  | int      | yes      | IM聊天用户ID,同用户id |
+|im_password|string	  | yes		 |由IM服务器生成的登入token|
+
+## 流程图
+![逻辑图](../../.images/api/access-authorization-process.png)
+

@@ -2,13 +2,377 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fa32e7b-85b2-4cbf-a799-0d2501eda174" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/assets/feed-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/assets/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/fonts/05acfdb568b3df49ad31355b19495d4a.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/fonts/24712f6c47821394fba7942fbb52c3b2.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/fonts/2c2ae068be3b089e0a5b59abb1831550.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/images/defaultNothingx2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/images/defaultNothingx3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/images/default_cover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/images/img_default_nobody@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/images/pic_locked_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/images/pic_locked_square_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/fonts/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/fonts/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/fonts/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/statics/images/common_ico_bottom_add@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/statics/images/defaultAvatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/statics/images/defaultAvatarx2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/statics/images/defaultNothingx2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/statics/images/defaultNothingx3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/statics/images/default_cover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/statics/images/image-loading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/statics/images/img_default_nobody@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/statics/images/pic_locked_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/statics/images/pic_locked_square_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/.images/api/access-authorization-process.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/.styleci.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/admin/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/admin/components/Feed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/admin/components/Home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/admin/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/admin/utils/request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/assets/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/assets/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/database/migrations/2017_06_26_081109_create_feeds_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/database/migrations/2017_06_26_084846_create_feed_collections_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/database/migrations/2017_06_30_091445_create_feed_pinneds_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/database/migrations/2017_07_17_013347_append_feeds_count_user_extras_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/database/seeds/FeedAdvertisingSpaceSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/database/seeds/FeedDatabaseAllSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/database/seeds/FeedPermissionSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/docs/api2/collect.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/docs/api2/feed/comment.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/docs/api2/feed/delete.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/docs/api2/feed/post.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/docs/api2/feed/set-comment-pay.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/docs/api2/feed/show.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/docs/api2/like.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/docs/api2/pinned.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/docs/api2/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/atmeFeeds.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/collectionFeed.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/countFeedView.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/delComment.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/delFeed.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/diggFeed.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/diggFeedUsers.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/feeds.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/getCommentsById.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/getFeedComments.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/getFeedInfo.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/getMyComments.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/getMydiggs.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/messages.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/postComment.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/postFeed.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/uncollectionFeed.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/undiggFeed.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/resource/components/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/resource/components/Comments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/resource/components/Feeds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/resource/components/Home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/resource/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/resource/theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/resource/utils/request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/routes/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/routes/api1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/routes/api2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/API2/CommentPinnedController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/API2/FeedCollectionController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/API2/FeedCommentController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/API2/FeedController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/API2/FeedPayController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/API2/LikeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/API2/PinnedController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/AdminContaollers/CommentController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/AdminContaollers/FeedController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/AdminContaollers/FileController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/AdminContaollers/HomeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Controllers/FeedAtmeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Controllers/FeedCollectionController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Controllers/FeedCommentController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Controllers/FeedController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Controllers/FeedDiggController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/FeedPackageHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/FeedServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/FormRequest/API2/StoreFeedComment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/FormRequest/API2/StoreFeedPost.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Middleware/CheckFeedByFeedId.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Middleware/VerifyCommentContent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Models/Concerns/HasFeedCollect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Models/Feed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Models/FeedAtme.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Models/FeedCollection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Models/FeedDigg.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Models/FeedPinned.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Models/FeedStorage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Models/FeedView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Models/Relations/FeedHasLike.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Observers/FeedObserver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Repository/Feed.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/RouteRegistrar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Services/FeedCount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Traits/PaginatorPage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/tests/FeedCommentTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/tests/FeedDiggTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/tests/FeedTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/views/admin.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/webpack.config.babel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/.postcssrc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/.styleci.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/config/component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/css/d351c722f748a3a28e3c.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/images/ionicons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/js/d351c722f748a3a28e3c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/dist/mix-manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/documents/database.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/php/Controllers/HomeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/php/PakcageHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/php/ServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/php/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/App.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/CollectionFeed.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/Collections.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/CommentInput.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/CommentsTool.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/Confirm.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/Feed.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/FeedDiggList.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/FeedImages.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/FeedList.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/FeedTool.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/ImageSwiper.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/IviewSwiper.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/LockedImage.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/LockedImageForSwiper.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/Notice.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/PostFeed.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/ShowFeedPopup.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/ToolBar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/UserFeed.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/components/feedNavBar.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/fonts/iconfont.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/fonts/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Back.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Camera.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Channel.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Close.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Comment.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Connection.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Digg.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Discover.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/DownArrow.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/EachFollowing.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Error.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/EyeClose.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/EyeOpen.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Feedback.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Following.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/FriendsLine.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Home.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/LoadingBlack.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/LoadingWhite.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Lock.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Me.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Message.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/More.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/News.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Ok.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Plus.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/QQ.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Question.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Ranking.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/RightArrow.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Search.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Share.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Space.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/SystemSetting.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/UnDigg.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/UnFollowing.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/UserHome.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/View.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Weibo.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/Zone.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/icons/weChat.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/routers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/routers/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/errorCodes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/getter_types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/localStorage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/collectionIds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/collectionNews.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/commentInput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/confirm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/feedDiggsList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/feedList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/followingIds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/hotIds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/imMessage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/imStatus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/imageSwiper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/messageNotice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/newIds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/newsAbout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/noticeText.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/showPost.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/module/userFeeds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/stores/types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/styles/common.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/styles/font.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/Comfirm.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/changeUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/contains.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/deleteObjectItems.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/detecdOS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/errorTips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/formateFeedComments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/formateNewsComments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/friendNum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/getImage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/getLocalTime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/localDatabase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/request.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/resource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/strLength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/switchTitle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/timer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/utils/webSocket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/ChangePassword.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Collections (copy).vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Collections.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Comments.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Diggs.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Discover.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/FeedDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/FeedDiggList.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/FeedFollowing.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/FeedHot.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/FeedNew.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Feeds.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/FindPassword.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Home.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/ImMessage.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Login.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Message.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Profile.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Ranking.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Register.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/Relationship.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/SystemSetting.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/UserFeeds.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/UserSetting.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/channel/ChannelFeeds.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/channel/ChannelIndex.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/news/NewsDetail.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/news/NewsIndex.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/src/views/news/NewsSearch.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/views/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5/webpack.config.babel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/.styleci.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/asstes/jquery-3.2.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/database/down.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/database/up.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/add-conversation-member-limit.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/create-conversation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/delete-conversation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/description.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/exit-conversation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/get-chat-authorization.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/get-single-conversation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/get-user-conversations.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/refresh-authorization.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/remove-conversation-member-limit.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v1/remove-conversation-member.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v2/add-conversation-member-limit.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v2/create-conversation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v2/delete-conversation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v2/exit-conversation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v2/get-chat-authorization.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v2/get-single-conversation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v2/get-user-conversations.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v2/refresh-authorization.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v2/remove-conversation-member-limit.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/documents/api/v2/remove-conversation-member.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/routes/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/routes/api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/routes/api_v2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/src/AdminControllers/HelperController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/src/AdminControllers/HomeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/src/Controllers/ImController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/src/Controllers/V2/ImController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/src/ImPackageHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/src/ImServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/src/Models/ImConversation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/src/Models/ImUser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/src/Repository/ImServe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/src/Request/StoreHelperPost.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/src/Service/IM/Service.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/views/admin.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/views/helper.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/views/layouts/app.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im/views/layouts/header.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/highland_plan.iml" afterPath="$PROJECT_DIR$/.idea/highland_plan.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/admin.php" afterPath="$PROJECT_DIR$/routes/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <ignored path="highland_plan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +384,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+  <component name="ComposerSettings">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -62,28 +426,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+              <folding>
+                <element signature="e#52#80#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1620">
+              <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="e#53#81#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/routes/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/routes/api1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-582">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedAtmeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Controllers/FeedAtmeController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -92,41 +500,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FeedController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/API2/FeedController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/views/admin.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1501142515000" expanded="true" signature="438:584" ph="..." />
+                <marker date="1501142515000" expanded="true" signature="451:582" ph="..." />
+                <marker date="1501142515000" expanded="true" signature="452:581" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-263">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="127">
+              <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -140,6 +542,10 @@
       <find>动态</find>
       <find>favicon</find>
       <find>/feed</find>
+      <find>FeedController</find>
+      <find>FileController</find>
+      <find>file_upload_1-queue</find>
+      <find>FeedController</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -153,15 +559,24 @@
       </map>
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d48a4d5a-13d3-4dff-bea9-709046ed2785/console.sql" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/storage/logs/laravel.log" />
-        <option value="$PROJECT_DIR$/routes/admin.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
+        <option value="$PROJECT_DIR$/routes/admin.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       </list>
     </option>
@@ -174,13 +589,20 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP7.1.8">
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP7.0">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/predis/predis" />
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -273,6 +695,10 @@
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/zhiyicx/plus-component-web" />
+      <path value="$PROJECT_DIR$/vendor/zhiyicx/plus-component-im" />
+      <path value="$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed" />
+      <path value="$PROJECT_DIR$/vendor/zhiyicx/plus-component-h5" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -296,7 +722,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,32 +732,91 @@
             <path>
               <item name="highland_plan" type="b2602c69:ProjectViewProjectNode" />
               <item name="highland_plan" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="highland_plan" type="b2602c69:ProjectViewProjectNode" />
               <item name="highland_plan" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="highland_plan" type="b2602c69:ProjectViewProjectNode" />
               <item name="highland_plan" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="highland_plan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="highland_plan" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="APIs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="highland_plan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="highland_plan" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="APIs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="V1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="highland_plan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="highland_plan" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="APIs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="V2" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="highland_plan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="highland_plan" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="highland_plan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="highland_plan" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="zhiyicx" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="highland_plan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="highland_plan" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="zhiyicx" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plus-component-feed" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="highland_plan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="highland_plan" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="zhiyicx" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plus-component-feed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thinksns-plus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="passport&#9;null&#9;null&#10;welcome&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -351,7 +835,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.welcome.blade.php">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -360,27 +844,507 @@
       <arguments />
       <envs />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter />
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="erlFlags" value="" />
+      <option name="moduleAndFunction" value="" />
+      <option name="params" value="" />
+      <option name="useTestCodePath" value="false" />
+      <option name="workDirectory" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module />
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set />
+      </option>
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="$PROJECT_DIR$/../../../Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="$PROJECT_DIR$/../../../Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="highland_plan" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+    <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="command" value="eunit" />
+      <option name="skipDependencies" value="true" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
-      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="welcome.blade.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/highland_plan/resources/views/welcome.blade.php" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.welcome.blade.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -400,12 +1364,18 @@
       <workItem from="1504684098959" duration="3302000" />
       <workItem from="1504690148351" duration="9627000" />
       <workItem from="1504771798755" duration="751000" />
-      <workItem from="1504772603253" duration="3658000" />
+      <workItem from="1504772603253" duration="4929000" />
+      <workItem from="1505736298098" duration="2720000" />
+      <workItem from="1506045519069" duration="1387000" />
+      <workItem from="1506303854946" duration="23434000" />
+      <workItem from="1506579830840" duration="2440000" />
+      <workItem from="1507702774206" duration="489000" />
+      <workItem from="1507791439816" duration="1848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26639000" />
+    <option name="totallyTimeSpent" value="60228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,27 +1388,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23424879" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890856" sideWeight="0.5048465" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24878837" sideWeight="0.48311308" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10324484" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5048465" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22617124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890856" sideWeight="0.4951535" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32452276" sideWeight="0.4951535" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599118" sideWeight="0.4951535" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32064423" sideWeight="0.4951535" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59292036" sideWeight="0.4927302" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7979502" sideWeight="0.4927302" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24071082" sideWeight="0.51688695" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33039647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,95 +1432,31 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/public/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/docs/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d48a4d5a-13d3-4dff-bea9-709046ed2785/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="12" lean-forward="false" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -553,7 +1465,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="0">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
@@ -567,77 +1479,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="0">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d48a4d5a-13d3-4dff-bea9-709046ed2785/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0f6f4740-1baf-490b-aeea-a2f5ea7fd007/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/f348b8ba4cf4435536a0.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d48a4d5a-13d3-4dff-bea9-709046ed2785/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/89889688147bd7575d6327160d64e760.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -651,21 +1507,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="0">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="0">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/zh-CN/get-started/installed.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
+        <state relative-caret-position="0">
           <caret line="211" column="26" lean-forward="false" selection-start-line="211" selection-start-column="26" selection-end-line="211" selection-end-column="26" />
         </state>
       </provider>
@@ -685,13 +1541,6 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/f7760dbb/d48a4d5a-13d3-4dff-bea9-709046ed2785/HIGHLAND_PLAN.users" />
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="87" column="12" lean-forward="false" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -720,24 +1569,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/framework/sessions/bwS92OWlZEOT9rguJdAKRzYeMFzjEUeoAldRixNY" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/APIs/V1/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
+        <state relative-caret-position="0">
           <caret line="186" column="44" lean-forward="false" selection-start-line="186" selection-start-column="44" selection-end-line="186" selection-end-column="44" />
         </state>
       </provider>
@@ -746,23 +1580,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
+    <entry file="file://$PROJECT_DIR$/docs/zh-CN/api2/users/likes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/zhiyi/h5/js/d351c722f748a3a28e3c.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -770,57 +1632,178 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="0">
           <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/public/css/f348b8ba4cf4435536a0.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/zh-CN/api2/users/likes.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/lt_LT/Person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="284" column="20" lean-forward="false" selection-start-line="284" selection-start-column="20" selection-end-line="284" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/assets/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/assets/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/assets/feed-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/assets/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/README.md" />
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+          <folding>
+            <element signature="e#52#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="127">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#53#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/documents/diggFeedUsers.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-376">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/routes/api1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-582">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/Controllers/FeedAtmeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/views/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1501142515000" expanded="true" signature="438:584" ph="..." />
+            <marker date="1501142515000" expanded="true" signature="451:582" ph="..." />
+            <marker date="1501142515000" expanded="true" signature="452:581" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/src/API2/FeedController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zhiyicx/plus-component-feed/routes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
           <folding />
         </state>
       </provider>

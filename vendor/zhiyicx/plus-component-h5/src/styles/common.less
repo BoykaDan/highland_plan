@@ -1,0 +1,379 @@
+@import '~iview/src/styles/index.less';
+
+@fontStack:	Helvetica, sans-serif;
+@themeColor: #59b6d7;
+@backgroundColor: #f4f5f5;
+@currentColor: #333;
+@noticeColor: #f4504d;
+@contentColor: #666;
+@secondaryColor: #999;
+@toolColor: #b2b2b2;
+@cut-off-line: #dedede;
+@sin-cut-off-line: #ededed;
+@font-size: 14px;
+@title-font-size: 18px;
+@bar-font-size: 14px;
+@buttonDisabledBackgroundColor: #ccc;
+@buttonActiveBackgroundColor: #4db3ff;
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-size: @font-size;
+  font-family: @fontStack;
+  background-color: @backgroundColor;
+  color: @currentColor;
+  &:focus, &:active {
+    background-color: @backgroundColor;
+  }
+}
+img[lazy="loading"], img[lazy="error"] {
+  width:100%;
+  height: 100%;
+  background: #ededed;
+}
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+  p {
+    margin: 5px 0;
+  }
+}
+.primary-color {
+  color: @themeColor;
+}
+.gray-color {
+  color: @secondaryColor;
+}
+#spinner {
+  position: fixed;
+  top: 46px;
+  left: 0;
+  bottom: 0;
+  right: 0; 
+  z-index: 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 100%; 
+}
+#spinner-parent {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  width: 6vw;
+  height: 6vw;
+}
+.spinner-double-bounce-bounce1, .spinner-double-bounce-bounce2 {
+  width: 6vw;
+  height: 6vw;
+  border-radius: 100px;
+  opacity: 0.6;
+  position: absolute;
+  background-color: #59b6d7;
+  -webkit-animation: mint-spinner-double-bounce 2.0s infinite ease-in-out;
+          animation: mint-spinner-double-bounce 2.0s infinite ease-in-out;
+}
+.spinner-double-bounce-bounce2 {
+  -webkit-animation-delay: -1.0s;
+          animation-delay: -1.0s;
+}
+@-webkit-keyframes spinner-double-bounce {
+  0%, 100% {
+    -webkit-transform: scale(0.0);
+            transform: scale(0.0);
+  }
+  50% {
+    -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+  }
+  }
+  @keyframes mint-spinner-double-bounce {
+  0%, 100% {
+    -webkit-transform: scale(0.0);
+            transform: scale(0.0);
+  }
+  50% {
+    -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+  }
+}
+a {
+  color: @themeColor;
+  text-decoration: none;
+  &:active, &:hover {
+    color: @currentColor;
+  }
+}
+div.nothingDefault {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 45px; 
+  bottom: 54px; 
+  left: 0; 
+  right: 0;
+  img {
+    width: 60%;
+  }
+}
+div.v-modal {
+  opacity: 0.3;
+}
+div.cropper-modal {
+  background: #fff;
+  opacity: .8;
+}
+div.cropper-bg{
+  background-image: none;
+  background: #fff;
+}
+img.avatar {
+  border-radius: 50%;
+  width: 100%;
+}
+.commonHeader {
+  height: 46px;
+  background-color: #fff;
+  border-bottom: 1px #ededed solid;
+  position: relative;
+  z-index: 2;
+  .ivu-row {
+    height: 100%;
+  }
+}
+.title-col {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.header-end-col {
+  font-size: 14px;
+  justify-content: flex-end;
+  display: flex;
+}
+.commentInput {
+  border: none;
+}
+.sendButton {
+  font-size: 14px;
+  padding: 3px!important;
+  background-color: #59b6d7;
+  border: none;
+  &[disabled] {
+    background-color: #ccc!important;
+    color: #fff!important;
+  }
+}
+.mint-loadmore-content .mint-loadmore-top {
+  height: 48px;
+  line-height: 48px;
+}
+.row-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .avatar-parent-col {
+    display: flex;
+    align-items: center;
+  }
+}
+.ivu-icon {
+  font-size: 16px;
+  color: #999;
+}
+
+.ivu-row, .ivu-row-flex {
+  display: flex;
+  align-items: center;
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+
+.ivu-badge {
+  .ivu-badge-dot {
+    box-shadow: none;
+    top: 2px;
+  }
+}
+
+/****图片上传进度圆***/
+.demo-upload-list{
+  span.demo-i-circle-inner {
+    font-size: 14px!important;
+  }
+  div.ivu-chart-circle {
+      width: 100%!important;
+      height: 100%!important;
+      padding: 3vw;
+  }
+}
+
+/********loadmore */
+.mint-loadmore-bottom {
+  margin-bottom: 0;
+}
+
+.commentInput {
+  textarea {
+    border: none;
+    border-bottom: 1px solid @themeColor;
+    &:focus {
+      box-shadow: none;
+      border-bottom-color: @themeColor;
+    }
+  }
+}
+
+:focus {
+  outline: none;
+}
+div#app:active, div#container:active{
+  background-color: @backgroundColor;
+}
+.inputFull {
+  color: #f00;
+  font-size: 14px;
+}
+input {
+  border: none;
+  height: 34px;
+  font-size: @font-size;
+  line-height: 1;
+  &:active, &:focus {
+    outline: none;
+  }
+}
+
+.ivu-btn.ivu-btn-primary[disabled='disabled'] {
+  background-color: @buttonDisabledBackgroundColor;
+  color: #fff;
+  &:active {
+    background-color: @buttonActiveBackgroundColor;
+  }
+}
+
+.ivu-btn.ivu-btn-text {
+  background-color: #fff;
+  color: @themeColor;
+  padding: 6px 0;
+  font-size: 14px;
+}
+.ivu-btn.ivu-btn-text[disabled='disabled'] {
+  color: #999;
+  font-size: 14px;
+}
+
+.el-button-text {
+  color: @themeColor;
+  &:focus, &:active {
+    background-color: #fff;
+    color: #ccc;
+    border: none;
+  }
+}
+
+.bottom-border {
+  border-bottom: 1px solid @sin-cut-off-line;
+}
+
+.notice {
+  margin: 10px 0;
+  height: 22px;
+}
+
+.error {
+  color: red;
+}
+
+
+.formChildrenRow {
+  height: 55px;
+  line-height: 55px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.loginForm {
+  background-color: #fff;
+  &:focus, &:active {
+    background-color: #fff;
+  }
+  .flexstart {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+  }
+  .flexend {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+  }
+  .nopadding {
+    padding: 6px 0;
+  }
+}
+
+.loginForm {
+  background-color: #fff;
+}
+.loginButton {
+  width: 100%;
+  background-color: #59b6d7;
+  border: none;
+  display: block;
+  text-align: center;
+  &:active {
+    background-color: #4ab2ce;
+    color: #fff;
+  }
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+}
+
+.otherOperation {
+  height: 42px;
+  line-height: 42px;
+}
+
+.otherOperation a{
+  font-size: 14px;
+}
+
+.router-link-active {
+  color: #333;
+  border-bottom: 2px @themeColor solid
+}
+
+.feed .feedTitle {
+  color: #59b6d7;
+  font-size: 16px;
+  border-bottom: none;
+  display: flex;
+}
+
+.ivu-icon {
+  .count {
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.digg {
+  color: @noticeColor;
+}

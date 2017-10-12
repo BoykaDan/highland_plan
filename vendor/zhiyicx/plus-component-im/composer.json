@@ -1,0 +1,29 @@
+{
+    "name": "zhiyicx/plus-component-im",
+    "description": "💌ThinkSNS+ 即时聊天应用拓展。",
+    "license": "Apache-2",
+    "authors": [
+        {
+            "name": "martinsun",
+            "email": "syh@sunyonghong.com"
+        },
+        {
+            "name": "Seven Du",
+            "email": "shiweidu@outlook.com",
+            "homepage": "https://github.com/medz"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Zhiyi\\Component\\ZhiyiPlus\\PlusComponentIm\\": "src/"
+		}
+	},
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": "Zhiyi\\Component\\ZhiyiPlus\\PlusComponentIm\\ImServiceProvider"
+        }
+	}
+}

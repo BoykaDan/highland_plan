@@ -93,6 +93,9 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/tymon/jwt-auth" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zhiyicx/plus-component-feed" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zhiyicx/plus-component-h5" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zhiyicx/plus-component-im" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -109,7 +112,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="PHP" type="php">
+      <library name="PHP">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/codacy/coverage" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
@@ -202,6 +205,9 @@
           <root url="file://$MODULE_DIR$/vendor/tymon/jwt-auth" />
           <root url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
           <root url="file://$MODULE_DIR$/vendor/webmozart/assert" />
+          <root url="file://$MODULE_DIR$/vendor/zhiyicx/plus-component-feed" />
+          <root url="file://$MODULE_DIR$/vendor/zhiyicx/plus-component-h5" />
+          <root url="file://$MODULE_DIR$/vendor/zhiyicx/plus-component-im" />
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/codacy/coverage" />
@@ -295,6 +301,9 @@
           <root url="file://$MODULE_DIR$/vendor/tymon/jwt-auth" />
           <root url="file://$MODULE_DIR$/vendor/vlucas/phpdotenv" />
           <root url="file://$MODULE_DIR$/vendor/webmozart/assert" />
+          <root url="file://$MODULE_DIR$/vendor/zhiyicx/plus-component-feed" />
+          <root url="file://$MODULE_DIR$/vendor/zhiyicx/plus-component-h5" />
+          <root url="file://$MODULE_DIR$/vendor/zhiyicx/plus-component-im" />
         </SOURCES>
       </library>
     </orderEntry>

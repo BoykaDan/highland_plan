@@ -13,7 +13,16 @@ use Illuminate\Contracts\Routing\Registrar as RouteRegisterContract;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', 'HomeController@show')->name('feed:admin');
+Route::get('/statistics', 'HomeController@statistics');
+Route::get('/feeds', 'FeedController@index');
+Route::delete('/feeds/{feed}', 'FeedController@destroy');
+Route::patch('/feeds/{feed}/review', 'FeedController@reviewFeed');
+Route::get('/comments', 'CommentController@show');
+Route::delete('/comments/{comment}', 'CommentController@delete');
 
+// File
+Route::get('/files/{file}', 'FileController@show');
 Route::group([
     'middleware' => [
         'auth:web', 'admin',
@@ -226,3 +235,4 @@ Route::middleware('auth:web')
         Route::delete('/{word}', 'SensitiveWordController@delete');
     });
 });
+

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9582a675419c1bd78270bda8dfc53c61",
+    "content-hash": "8c0934a762bf48643ea4d184725be2ea",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3331,6 +3331,146 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "zhiyicx/plus-component-feed",
+            "version": "v2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimkit/plus-component-feed.git",
+                "reference": "518f034e3b15548a4aeff9718470f8bfdebe577f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/slimkit/plus-component-feed/518f034e3b15548a4aeff9718470f8bfdebe577f.zip",
+                "reference": "518f034e3b15548a4aeff9718470f8bfdebe577f",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Zhiyi\\Component\\ZhiyiPlus\\PlusComponentFeed\\FeedServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "database/"
+                ],
+                "psr-4": {
+                    "Zhiyi\\Component\\ZhiyiPlus\\PlusComponentFeed\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2"
+            ],
+            "authors": [
+                {
+                    "name": "boxshadow",
+                    "email": "idafoo@sina.com"
+                },
+                {
+                    "name": "Seven Du",
+                    "email": "shiweidu@outlook.com",
+                    "homepage": "http://medz.cn"
+                }
+            ],
+            "description": "feed-component for TS+",
+            "time": "2017-07-27T08:01:55+00:00"
+        },
+        {
+            "name": "zhiyicx/plus-component-h5",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimkit/plus-component-h5.git",
+                "reference": "0bfd95323db6057ba05a76aee45ab64b2e8739c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/slimkit/plus-component-h5/0bfd95323db6057ba05a76aee45ab64b2e8739c6.zip",
+                "reference": "0bfd95323db6057ba05a76aee45ab64b2e8739c6",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Zhiyi\\Component\\ZhiyiPlus\\PlusComponentH5\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zhiyi\\Component\\ZhiyiPlus\\PlusComponentH5\\": "php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Wayne John",
+                    "email": "qiaobinloverabbi@gmail.com",
+                    "role": "developer"
+                },
+                {
+                    "name": "Seven Du",
+                    "email": "shiweidu@outlook.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "🌝The SPA of ThinkSNS+",
+            "time": "2017-08-06T10:03:28+00:00"
+        },
+        {
+            "name": "zhiyicx/plus-component-im",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimkit/plus-component-im.git",
+                "reference": "b27403566f7316d0ce2de35c753d11d5799e38e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/slimkit/plus-component-im/b27403566f7316d0ce2de35c753d11d5799e38e3.zip",
+                "reference": "b27403566f7316d0ce2de35c753d11d5799e38e3",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": "Zhiyi\\Component\\ZhiyiPlus\\PlusComponentIm\\ImServiceProvider"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zhiyi\\Component\\ZhiyiPlus\\PlusComponentIm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2"
+            ],
+            "authors": [
+                {
+                    "name": "martinsun",
+                    "email": "syh@sunyonghong.com"
+                },
+                {
+                    "name": "Seven Du",
+                    "email": "shiweidu@outlook.com",
+                    "homepage": "https://github.com/medz"
+                }
+            ],
+            "description": "💌ThinkSNS+ 即时聊天应用拓展。",
+            "time": "2017-09-07T02:59:18+00:00"
         }
     ],
     "packages-dev": [

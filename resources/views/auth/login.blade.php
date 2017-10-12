@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>登陆 - {{ config('app.name') }}</title>
+    <title>登陆- {{ config('app.name') }}</title>
 
     <link rel="icon" type="image/x-icon" href="{{ asset('/favicon.ico') }}">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">

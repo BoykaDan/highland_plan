@@ -10,8 +10,6 @@
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
       <introspection-schemas>*:HIGHLAND_PLAN</introspection-schemas>
-      <resolve-scope>*:HIGHLAND_PLAN</resolve-scope>
-      <unqualified-resolve-schemas>*:HIGHLAND_PLAN</unqualified-resolve-schemas>
     </data-source>
   </component>
 </project>

@@ -24,8 +24,12 @@
         "slimkit/plus-installer": "^1.0",
         "symfony/polyfill-mbstring": "^1.4",
         "symfony/yaml": "^3.3",
-        "tymon/jwt-auth": "^0.5.12"
+        "tymon/jwt-auth": "^0.5.12",
+        "zhiyicx/plus-component-feed": "^2.0",
+        "zhiyicx/plus-component-h5": "^3.0",
+        "zhiyicx/plus-component-im": "^2.0"
     },
+
     "require-dev": {
         "filp/whoops": "~2.0",
         "codacy/coverage": "^1.0",
@@ -33,6 +37,7 @@
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~6.0"
     },
+
     "autoload": {
         "files": [
             "app/helpers.php"
@@ -45,11 +50,13 @@
             "Zhiyi\\Plus\\": "app/"
         }
     },
+
     "autoload-dev": {
         "psr-4": {
             "Zhiyi\\Plus\\Tests\\": "tests/"
         }
     },
+
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
@@ -59,6 +66,7 @@
             ]
         }
     },
+
     "scripts": {
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
@@ -71,6 +79,7 @@
             "@php artisan package:discover"
         ]
     },
+
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
